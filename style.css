@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    height: 300px; 
+    background-size: cover; 
+    background-position: center; 
+  
+} 
+  @media screen and (max-width: 1400px) {
+    .image {
+      background-image: url('https://th.bing.com/th/id/OIP.zqTq33OTbv9vRLg9Ul9Z-wHaE5?pid=ImgDet&w=189&h=124&c=7&dpr=1.3');
+      background-color: red;
+      height: 600px;
+    }
+
+  }
+  
+ 
+  @media screen and (min-width: 481px) and (max-width: 768px) {
+    .image {
+      background-image: url('https://th.bing.com/th/id/OIP.HUptZ7XFO03DJVJ64XN6rAHaE8?pid=ImgDet&w=189&h=126&c=7&dpr=1.3'); 
+    }
+  }
+  
+  
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    .image-container {
+      background-image: url('https://th.bing.com/th/id/OIP.T-nj-KXka0v75UOBW7Dr9wHaHa?pid=ImgDet&w=189&h=189&c=7&dpr=1.3'); 
+    }
+  }
+  
+  
+  @media screen and (min-width: 1025px) and (max-width: 1200px) {
+    .image {
+      background-image: url('https://th.bing.com/th/id/OIP.0kxpfGBuavVIC2rYygk4oQHaEq?pid=ImgDet&w=189&h=118&c=7&dpr=1.3'); 
+    }
+  }
+  
+  
+  @media screen and ((min-width: 1201px)) {
+    .image {
+      background-image: url('https://th.bing.com/th/id/OIP.L2nvGgqXoztxiWcghrztgwHaEK?w=1024&h=576&rs=1&pid=ImgDetMain'); 
+    }
+  }
