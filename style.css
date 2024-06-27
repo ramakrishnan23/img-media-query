@@ -27,7 +27,7 @@
   
   
   @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .image-container {
+    .image{
       background-image: url('https://th.bing.com/th/id/OIP.T-nj-KXka0v75UOBW7Dr9wHaHa?pid=ImgDet&w=189&h=189&c=7&dpr=1.3'); 
     }
   }
